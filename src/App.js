@@ -1,13 +1,14 @@
 import React from "react"
 import Accordion from "./Accordion"
 import "./App.css"
+import Data from "./Data"
 const App = () => {
-  const ArrayOfObjects = [{ Name: "Topic1", Content: ["Content1", "Content2", "Content3"] }, { Name: "Topic2", Content: ["Content1", "Content2"] }, { Name: "Topic3", Content: ["Content1"] }]
+  const ArrayOfObjects = Data
   return (
     <>
       <div className="accordionContainer">
         {ArrayOfObjects.length > 0 && ArrayOfObjects.map((elem, index) => {
-          return <Accordion Name={elem.Name} key={index} Content={elem.Content} />
+          return <Accordion key={index} Name={elem.Name}  Content={elem.Content} />
         })
         }
       </div>

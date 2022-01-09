@@ -1,6 +1,8 @@
 .accordionContainer {
   text-align: center;
-  padding: 5%;
   height: 100%;
-  margin: 5%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

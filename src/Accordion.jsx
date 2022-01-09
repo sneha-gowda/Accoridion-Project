@@ -18,8 +18,8 @@ const Accordion = (Data) => {
             <div className="accordion">
                 <button onClick={StateMonitor}>{Data.Name}</button>
                 <div className={`acco_cot ${ active ? "Active" : "notActive" } `}>
-                    {contentOfCard.length > 0 && contentOfCard.map((ele) => {
-                        return <h3>{ele}</h3>
+                    {contentOfCard.length > 0 && contentOfCard.map((ele,index) => {
+                        return <h3 key={index}>{ele}</h3>
                     })}
                 </div>
             </div>
