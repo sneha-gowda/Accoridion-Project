@@ -1,1 +1,1 @@
-This is simple Accordion based Web Application
+This is a simple Accordion based Web Application
