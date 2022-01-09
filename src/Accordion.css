@@ -1,0 +1,15 @@
+.accordion {
+  background-color: rgb(61, 150, 150);
+  padding: 10%;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.Active {
+  display: block;
+  background: rgb(247, 245, 245);
+}
+.notActive {
+  display: none;
+}
