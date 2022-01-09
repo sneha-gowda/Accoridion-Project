@@ -5,6 +5,12 @@
   width: 50%;
   margin: 2% auto;
 }
+accContent.Active {
+  height: 100px;
+}
+.accContent {
+  transition: height ease 2s;
+}
 
 .Active {
   display: block;
