@@ -4,12 +4,14 @@ import "./App.css"
 import Data from "./Data"
 const App = () => {
   const [clicked, setClicked] = useState("0");
+
   const handleToggle = (index) => {
     if (clicked === index) {
       return setClicked("0")
     }
     setClicked(index)
   };
+ 
   const ArrayOfObjects = Data
   return (
     <>
