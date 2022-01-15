@@ -6,14 +6,12 @@ const Accordion = (Data) => {
     const direction=(D)=>{
         if(D==="T" || D==="B"){
             setFlexD("column")
-        }
-        else{
+        }else{
             setFlexD("row")
         }
         if(D==="L" || D==="T"){
             setOrder(1)
-        }
-        else{
+        }else{
             setOrder(0)
         }
         Data.onToggle()
